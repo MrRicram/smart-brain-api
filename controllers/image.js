@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = new Clarifai.App({
-    apiKey: process.env.API_KEY
+    apiKey: '9e402a6f84274e71a5fed196ff969bc1'
 });
 
 const handleApiCall = (req, res) => {
