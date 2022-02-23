@@ -15,7 +15,7 @@ const app = express();
 const db = knex({
     client: 'pg',
     connection: {
-      host : process.env.DATBASE_URL,
+      connectionString : process.env.DATBASE_URL,
       ssl: true
     }
   });
